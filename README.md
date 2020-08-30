@@ -1,4 +1,4 @@
-# ITC_FinalProject_Gender_Voice_Recognition# ITC_FinalProject_Gender_Voice_Recognition
+# ITC_FinalProject_Gender_Voice_Recognition
 
 > Hebrew Subtitle Generator with Gender Consideration : By Serah Abensour, Yuval Herman, Hanna Hier, and Daniel Kagan
 
