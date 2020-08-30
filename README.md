@@ -32,7 +32,7 @@
 ---
 ## Clone
 
-Clone this repo to your local machine using `https://https://github.com/hannahier94/ITC_FinalProject_Gender_Voice_Recognition`
+Clone this repo to your local machine using `https://github.com/hannahier94/ITC_FinalProject_Gender_Voice_Recognition`
 
 ---
 
