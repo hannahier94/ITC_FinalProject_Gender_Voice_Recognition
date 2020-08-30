@@ -32,7 +32,7 @@
 ---
 ## Clone
 
-Clone this repo to your local machine using `https://github.com/hannahier94/ITC_FinalProject_Gender_Voice_Recognition`
+Clone this repo to your local machine using `https://github.com/hannahier94/ITC_FinalProject_Gender_Voice_Recognition.git`
 
 ---
 
@@ -89,5 +89,5 @@ zipp==3.1.0
 
 ## FAQ
 
-- **What makes your voice translator better than other similar algorithms?**
+- **What makes our voice translator better than other translation algorithms?**
     - Our algorithm takes the gender of the speaker into account when translating sentences, ultimately working to limit the gender bias in current translation APIs. Other APIs determine the male/female usage of verbs based on the context of the setence itself, which can lead to incorrect results. For example, if an algorithm has for seen from it's training data that most nurses are female. In this case, the likelihood of the sentence being spoken by a female would be higher so the output would imply this. Our algorithm does not depend on the bias of previous training data to come up with this result. We use additional information about the speaker (the voice gender recognition) to paint a more complete picture.
