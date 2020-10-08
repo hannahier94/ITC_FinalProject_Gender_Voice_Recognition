@@ -1,0 +1,11 @@
+python-telegram-bot==12.8
+googletrans
+pydub
+tensorflow
+spacy
+numpy
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.0.0/en_core_web_md-2.0.0.tar.gz
+librosa
+SpeechRecognition
+
+
