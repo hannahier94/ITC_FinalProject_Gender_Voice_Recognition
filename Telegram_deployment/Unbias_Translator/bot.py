@@ -72,14 +72,21 @@ def voice_handler(update: Update, context: CallbackContext):
     wav_path = path.split('.')[0] + '.wav'
     convert_ogg_to_wav(path, wav_path)
     '''start pipeline:'''
+    res = ''
     try:
         res = invoke_pipeline(wav_path)
     except Exception as E:
         res = E
     '''return response to user'''
-    context.bot.send_message(chat_id=update.message.chat_id, text=res)
-    '''delete used files'''
-    delete_files(path, wav_path)
+    try:
+        if res == '':
+            res = 'audio was empty or vocals were too low, please try again'
+        context.bot.send_message(chat_id=update.message.chat_id, text=res)
+        '''delete used files'''
+        delete_files(path, wav_path)
+    except Exception:
+        '''delete used files'''
+        delete_files(path, wav_path)
 
 
 def main():
